@@ -31,4 +31,5 @@ body {
 h1 {
     position: relative;
     z-index: 1; /* Ensure h1 is on top of the flames */
+    color: rgb(114, 24, 24)
 }
