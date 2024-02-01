@@ -27,7 +27,8 @@ body {
     height: 100%;
     /* background: url('images/flames0.avif'); */
     /* background: url('images/flames2.jpg'); */
-    background: url('images/flames3.gif');
+    /* background: url('images/flames3.gif'); */
+    background: url('images/flames4.gif');
     background-size: 100% 100%;
     z-index: -1;
     pointer-events: none; 
