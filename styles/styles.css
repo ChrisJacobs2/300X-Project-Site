@@ -1,0 +1,48 @@
+/* I think it would be cool if we made the color scheme based on the
+   American flag, since our target "audience" will be Real True Patriots */
+
+body {
+    /* I think some off white color would be the best */
+    background-color: beige;
+}
+
+h1 {
+    position: relative;
+    z-index: 1;
+    color: rgb(114, 24, 24);
+}
+.search-bar {
+    text-align: right;
+}
+.flames-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.flames {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*  We have to put ../ before the file path in this CSS file 
+        because as per project specificaitons we have to have the css
+        in its own folder (Chris) */
+
+    /* background: url('../images/flames0.avif'); */
+    /* background: url('../images/flames2.jpg'); */
+    /* background: url('../images/flames3.gif'); */
+    background: url('../images/flames4.gif');
+    background-size: 100% 100%;
+    z-index: -1;
+    pointer-events: none; 
+    opacity: 0.5;
+}
+
+/* This class should hover over the landing page,
+   and should disappear when Yes is clicked. If
+   no is clicked, redirects to some silly website, TBD (Chris) */
+.splash {
+    display: none;
+    /* background-color: blue; */
+}
