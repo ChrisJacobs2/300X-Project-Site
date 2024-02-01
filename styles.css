@@ -9,10 +9,10 @@
 
 body {
     /* I think some off white color would be the best */
-    background-color: beige
+    background-color: beige;
 }
 .search-bar {
-    text-align: right
+    text-align: right;
 }
 .flames-container {
     position: relative;
@@ -36,5 +36,5 @@ body {
 h1 {
     position: relative;
     z-index: 1;
-    color: rgb(114, 24, 24)
+    color: rgb(114, 24, 24);
 }
