@@ -51,6 +51,8 @@ h1 {
 
 /* SPLASH STYLING ##############################################  */
 .splash {
+    display: none;
+
     position: fixed;
     top: 20%;
     left: 50%;
@@ -71,8 +73,6 @@ h1 {
 .splash .buttons {
     /* For testing purposes. TODO: Remove. */
     /* background-color: blueviolet; */
-
-
 
     display: flex;
     justify-content: space-around;
