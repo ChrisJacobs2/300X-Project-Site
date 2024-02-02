@@ -50,3 +50,47 @@ h1 {
     display: none;
     /* background-color: blue; */
 }
+
+
+
+/* Wills test */
+.sidebar-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar {
+    background-color: rgba(0, 0, 0, 0.59);
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 5px;
+}
+
+/* Dropdown needs work */
+.dropdown {
+    position: relative;
+}
+
+.dropdown .sub-menu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+.dropdown:hover .sub-menu {
+    display: block;
+}
