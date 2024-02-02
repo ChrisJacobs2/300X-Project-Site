@@ -68,6 +68,7 @@ h1 {
 
 .sidebar {
     background-color: rgba(0, 0, 0, 0.59);
+    background-size: 100% 100%;
     color: rgb(114, 24, 24);
     padding: 10px;
 }
