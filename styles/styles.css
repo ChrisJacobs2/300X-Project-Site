@@ -92,6 +92,8 @@ h1 {
     border: 3px solid blue;
     color: white;
     text-decoration: none;
+    background: url('../images/america.jpg');
+    background-size: 100% 100%;
 }
 
 .sub-categories {
