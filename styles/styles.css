@@ -75,7 +75,7 @@ h1 {
     /* For testing purposes. TODO: Remove. */
     /* background-color: blueviolet; */
 
-    
+
     display: flex;
     justify-content: space-around;
 }
