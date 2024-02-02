@@ -11,14 +11,18 @@ h1 {
     z-index: 1;
     color: rgb(114, 24, 24);
 }
+
 .search-bar {
     text-align: right;
+    background-color: rgba(0, 0, 0, 0.59);
 }
+
 .flames-container {
     position: relative;
     display: flex;
     align-items: center;
 }
+
 .flames {
     position: absolute;
     top: 0;
@@ -35,7 +39,7 @@ h1 {
     background: url('../images/flames4.gif');
     background-size: 100% 100%;
     z-index: -1;
-    pointer-events: none; 
+    pointer-events: none;
     opacity: 0.5;
 }
 
