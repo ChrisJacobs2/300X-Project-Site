@@ -108,6 +108,7 @@ h1 {
     padding: 10px;
     border: 1px solid blue;
     /* border-radius: 5px; */
+    white-space: nowrap;
     z-index: 1;
 }
 
