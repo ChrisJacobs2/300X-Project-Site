@@ -49,14 +49,38 @@ h1 {
     opacity: 0.5;
 }
 
-/* This class should hover over the landing page,
-   and should disappear when Yes is clicked. If
-   no is clicked, redirects to some silly website, TBD (Chris) */
+/* SPLASH STYLING ##############################################  */
 .splash {
-    display: none;
-    /* background-color: blue; */
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: blue;
+    margin: 10% auto;
+    width: 50%;
+    height: 50%;
 }
 
+.splash h1 {
+    color: white;
+    text-align: center;
+}
+
+/* affects the buttons container */
+.splash .buttons {
+    background-color: blueviolet; /* For testing purposes. TODO: Remove. */
+    display: flex;
+    justify-content: space-around;
+}
+
+/* affects the buttons themselves */
+.splash .buttons button {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+/* END SPLASH STYLING ##########################################*/
 
 
 /* Wills test */
