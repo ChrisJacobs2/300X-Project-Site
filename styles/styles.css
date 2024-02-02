@@ -79,18 +79,9 @@ h1 {
     margin-bottom: 5px;
 }
 
-/* Dropdown needs work */
-.dropdown {
-    position: relative;
-}
-
-.dropdown .sub-menu {
-    display: none;
-    position: absolute;
-    left: 100%;
-    top: 0;
-}
-
-.dropdown:hover .sub-menu {
+.sidebar ul li a {
     display: block;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
 }
