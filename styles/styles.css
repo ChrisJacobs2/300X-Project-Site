@@ -75,7 +75,6 @@ h1 {
     /* For testing purposes. TODO: Remove. */
     /* background-color: blueviolet; */
 
-    
     display: flex;
     justify-content: space-around;
 }
@@ -85,19 +84,8 @@ h1 {
     font-size: 16px;
     padding: 10px 20px;
 }
+
 /* END SPLASH STYLING ##########################################*/
-
-
-/* BEGIN FOOTER ################################################*/
-.footer {
-    /* For testing purposes. TODO: Remove. */
-    background-color: royalblue;
-
-
-    position: fixed;
-    bottom: 0;
-}
-/* END FOOTER ##################################################*/
 
 
 /* Wills test */
@@ -131,7 +119,7 @@ h1 {
 .sidebar ul li a {
     display: block;
     padding: 10px;
-    border: 3px solid blue;
+    border: 3px solid rgb(0, 0, 155);
     color: white;
     text-decoration: none;
     /* background: url('../images/america.jpg'); */
