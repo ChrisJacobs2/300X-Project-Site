@@ -28,7 +28,11 @@ var splashScreen = document.querySelector('.splash');
 // Add event listeners
 yesButtonSplash.addEventListener('click', function() {
     console.log('"Yes" button clicked');
-    // link to some silly website for goobers
+
+    // Redirect to Toyota Prius page
+    window.location.href = 'https://www.toyota.com/prius/';
+    // TODO: Add different sites to randomly link to
+    // TODO: Add cookies so this screen only shows up once
 });
 
 noButtonSplash.addEventListener('click', function() {
