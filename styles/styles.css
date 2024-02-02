@@ -69,7 +69,11 @@ h1 {
 
 /* affects the buttons container */
 .splash .buttons {
-    background-color: blueviolet; /* For testing purposes. TODO: Remove. */
+    /* For testing purposes. TODO: Remove. */
+    /* background-color: blueviolet; */
+
+
+
     display: flex;
     justify-content: space-around;
 }
