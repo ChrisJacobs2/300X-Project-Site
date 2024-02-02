@@ -93,7 +93,9 @@ h1 {
     color: white;
     text-decoration: none;
     /* background: url('../images/america.jpg'); */
-    background: url('../images/wavingflag0.gif');
+    /* background: url('../images/wavingflag0.gif'); */
+    /* background: url('../images/wavingflag1.webp'); */
+    background: url('../images/wavingflag4.gif');
     background-size: 100% 100%;
 }
 
