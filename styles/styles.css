@@ -49,10 +49,6 @@ h1 {
 
 
 /* BEGIN NAVBAR ################################################*/
-
-/* TODO: Override this with something else if the
-         screen size is too small. (smaller than 1000px)
- */
 .navbar-container {
     background-color: #333;
     width: 100%;
@@ -67,6 +63,7 @@ h1 {
     margin: 0 auto; 
 }
 
+
 .navbar a {
     color: #fff;
     text-decoration: none; /* Get rid of the underline */
@@ -77,6 +74,26 @@ h1 {
     background-color: #555;
 }
 
+@media (max-width: 600px) {
+    .navbar-container {
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        top: 540px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        padding: 10px 30px;
+    }
+}
 /* END NAVBAR ##################################################*/
 
 
@@ -100,10 +117,6 @@ h1 {
 }
 /* affects the buttons container */
 .splash .buttons {
-    /* For testing purposes. TODO: Remove. */
-    /* background-color: blueviolet; */
-
-
     display: flex;
     justify-content: space-around;
 }
@@ -115,20 +128,6 @@ h1 {
 /* END SPLASH STYLING ##########################################*/
 
 
-/* BEGIN FOOTER ################################################*/
-.footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.59);
-    color: white;
-    padding: 10px;
-}
-/* END FOOTER ##################################################*/
 
 /* BEGIN SIDEBAR (CATEGORIES) ##################################*/
 /* Wills test */
@@ -189,11 +188,11 @@ h1 {
 .body-text {
     background-color: rgba(0, 0, 0, 0.644);
     color: white;
-    position: absolute;
+    position: relative;
     margin-left: 280px;
-    margin-right: 20px;
+    margin-right: 10%;
     padding: 14px;
-    top: 300px;
+    top: -200px;
 }
 .body-text h2 {
     font-family: 'Courier New', Courier, monospace;
@@ -204,6 +203,16 @@ h1 {
 }
 /* END BODY PARAGRAPH ##########################################*/
 
+/* BEGIN FOOTER ################################################*/
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.59);
+    color: white;
+    text-align: center;
+}
+/* END FOOTER ##################################################*/
 
 /* BEGIN VIDEO CONTAINER #######################################*/
 .video-container {
