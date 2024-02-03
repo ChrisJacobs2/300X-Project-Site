@@ -1,5 +1,5 @@
 /* I think it would be cool if we made the color scheme based on the
-   American flag, since our target "audience" will be Real True Patriots */
+American flag, since our target "audience" will be Real True Patriots */
 
 body {
     /* I think some off white color would be the best */
@@ -12,6 +12,13 @@ h1 {
     position: relative;
     z-index: 1;
     color: rgb(114, 24, 24);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.59);
+    color: white;
+    text-align: center;
+    margin-top: 70px;
 }
 
 .search-bar {
@@ -203,16 +210,8 @@ h1 {
 }
 /* END BODY PARAGRAPH ##########################################*/
 
-/* BEGIN FOOTER ################################################*/
-.footer {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.59);
-    color: white;
-    text-align: center;
-}
-/* END FOOTER ##################################################*/
+
+
 
 /* BEGIN VIDEO CONTAINER #######################################*/
 .video-container {
