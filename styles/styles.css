@@ -50,9 +50,38 @@ h1 {
 }
 
 
-/* SPLASH STYLING ##############################################  */
+/* BEGIN NAVBAR ################################################*/
+
+/* TODO: Override this with something else if the
+         screen size is too small. (smaller than 1000px)
+ */
+.navbar {
+    width: 1000px;
+    background-color: #333;
+    height: 60px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 5px 0px;
+    margin: 0 auto; 
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none; /* Get rid of the underline */
+    padding: 20px 30px;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+/* END NAVBAR ##################################################*/
+
+
+/* BEGIN SPLASH STYLING ########################################*/
 .splash {
-    display: none;
+    display: none; /* HIDDEN for dev purposes */
 
     position: fixed;
     top: 20%;
@@ -64,12 +93,10 @@ h1 {
     width: 50%;
     height: 50%;
 }
-
 .splash h1 {
     color: white;
     text-align: center;
 }
-
 /* affects the buttons container */
 .splash .buttons {
     /* For testing purposes. TODO: Remove. */
@@ -79,16 +106,15 @@ h1 {
     display: flex;
     justify-content: space-around;
 }
-
 /* affects the buttons themselves */
 .splash .buttons button {
     font-size: 16px;
     padding: 10px 20px;
 }
-
 /* END SPLASH STYLING ##########################################*/
 
-/* BEGIN FOOTER */
+
+/* BEGIN FOOTER ################################################*/
 .footer {
     position: fixed;
     bottom: 0;
@@ -101,36 +127,32 @@ h1 {
     color: white;
     padding: 10px;
 }
-/* END FOOTER */
+/* END FOOTER ##################################################*/
 
+/* BEGIN SIDEBAR (CATEGORIES) ##################################*/
 /* Wills test */
 .sidebar-container {
     position: relative;
     display: flex;
     align-items: center;
 }
-
 .sidebar {
     background-color: rgba(0, 0, 0, 0.59);
     background-size: 100% 100%;
     color: rgb(114, 24, 24);
     padding: 10px;
 }
-
 .sidebar h2 {
     margin-bottom: 0px;
 }
-
 .sidebar ul {
     list-style-type: none;
     padding: 0;
 }
-
 .sidebar ul li {
     /* margin-bottom: 5px; */
     position: relative;
 }
-
 .sidebar ul li a {
     display: block;
     padding: 10px;
@@ -144,7 +166,6 @@ h1 {
     background: url('../images/wavingflag4.gif');
     background-size: 100% 100%;
 }
-
 .sub-categories {
     display: none;
     position: absolute;
@@ -157,7 +178,7 @@ h1 {
     white-space: nowrap;
     z-index: 1;
 }
-
 .sidebar ul li:hover .sub-categories {
     display: block;
 }
+/* END SIDEBAR (CATEGORIES) ####################################*/
