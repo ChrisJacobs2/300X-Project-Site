@@ -33,7 +33,7 @@ h1 {
     position: absolute;
     top: 0;
     left: 0;
-    width: 450px;
+    width: 100%;
     height: 100%;
     
 
@@ -53,9 +53,12 @@ h1 {
 /* TODO: Override this with something else if the
          screen size is too small. (smaller than 1000px)
  */
-.navbar {
-    width: 1000px;
+.navbar-container {
     background-color: #333;
+    width: 100%;
+}
+
+.navbar {
     height: 60px;
     display: flex;
     justify-content: center; 
@@ -182,6 +185,26 @@ h1 {
 /* END SIDEBAR (CATEGORIES) ####################################*/
 
 
+/* BEGIN BODY PARAGRAPH ########################################*/
+.body-text {
+    background-color: rgba(0, 0, 0, 0.644);
+    color: white;
+    position: absolute;
+    margin-left: 280px;
+    margin-right: 20px;
+    padding: 14px;
+    top: 300px;
+}
+.body-text h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+.body-text p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 2;
+}
+/* END BODY PARAGRAPH ##########################################*/
+
+
 /* BEGIN VIDEO CONTAINER #######################################*/
 .video-container {
     position: fixed;
@@ -192,7 +215,6 @@ h1 {
     z-index: -100;
     object-fit: cover;
 }
-
 .video-container video {
     width: 100%;
     height: 100%;
