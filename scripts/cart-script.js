@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
         button.addEventListener('click', function () {
             const name = button.dataset.name;
             const price = parseFloat(button.dataset.price);
+
         });
     });
 });
