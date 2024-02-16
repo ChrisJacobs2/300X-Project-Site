@@ -288,6 +288,17 @@ footer {
 
 .cart-item img {
     height: 100px;
+    margin-right: 10px;
+}
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+}
+.cart-box {
+    /* The div that has this class also has the body-text class */
+    margin-left: 5vw;
+    margin-right: 25vw;
+
 }
 
 /* END CART SECTION ############################################*/
