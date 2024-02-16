@@ -285,6 +285,12 @@ footer {
 }
 
 /* BEGIN CART SECTION ##########################################*/
+#shopping-cart-main{
+    display: flex;
+}
+#checkout-box {
+
+}
 
 .cart-item img {
     height: 100px;
@@ -293,6 +299,10 @@ footer {
 .cart-item {
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 3px solid rgb(114, 24, 24);;
 }
 .cart-box {
     /* The div that has this class also has the body-text class */
@@ -300,6 +310,7 @@ footer {
     margin-right: 25vw;
 
 }
+
 
 /* END CART SECTION ############################################*/
 
