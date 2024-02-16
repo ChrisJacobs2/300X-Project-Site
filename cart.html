@@ -34,16 +34,19 @@
     </header>
 
     <main id="shopping-cart-main">
-        <div class="body-text cart-box">
+        <div class="body-text" id="cart-box">
             <h2>
                 Shopping Cart
             </h2>
             <!-- first exmaple item -->
             <div class="cart-item">
                 <img src="images/chains0.png" alt="chains0">
-                <h4 class="cart-item-name">PREMIUM HEAVY TIRE CHAINS</h4>
-                <div class="price-and-quantity">
+                <div class="cart-item-info">
+                    <h4 class="cart-item-name">PREMIUM HEAVY TIRE CHAINS</h4>
                     <p class="cart-item-price">$143.99</p>
+                </div>
+                <div class="price-and-quantity">
+                    <p class="cart-item-total">Subtotal: $143.99</p>
                     <div class="quantity-box">
                         <input type="number" value="1">
                         <button class="update">Update Quantity</button>
@@ -54,9 +57,12 @@
             <!-- second example item -->
             <div class="cart-item">
                 <img src="images/parts/Exhaust/chrome-exhaust-stack.jpg" alt="chrome exhaust stack">
-                <h4 class="cart-item-name">CHROME EXHAUST STACK</h4>
+                <div class="cart-item-info">
+                    <h4 class="cart-item-name">CHROME EXHAUST STACK</h4>
+                    <p class="cart-item-price">$536.99</p>
+                </div>
                 <div class="price-and-quantity">
-                    <p class="cart-item-price">$143.99</p>
+                    <p class="cart-item-total">Subtotal: $1073.98</p>
                     <div class="quantity-box">
                         <input type="number" value="2">
                         <button class="update">Update Quantity</button>
@@ -67,8 +73,10 @@
         </div>
     
         <!-- this goes to the right -->
+        <!-- 536.99 + 536.99 + 143.99 = 1217.97 -->
+        <!-- 1217.97 * (1.0675) + 15  ~ 1315.18 -->
         <div id="checkout-box">
-            <h3>Total: $143.99</h3>
+            <h3>Total: $1315.18</h3>
             <button>Checkout</button>
         </div>
     </main>

@@ -285,11 +285,29 @@ footer {
 }
 
 /* BEGIN CART SECTION ##########################################*/
+
 #shopping-cart-main{
     display: flex;
+    justify-content: space-around;
 }
 #checkout-box {
+    /* padding: 10px; */
+    padding-left: 10px;
+    align-self: flex-end;
+}
 
+@media (max-width: 600px) {
+    /* if screen is narrower than 600px, move checkout button below
+       cart items */
+    #shopping-cart-main{
+        display: block;
+    }
+}
+
+#cart-box {
+    /* The div that has this class also has the body-text class */
+    margin-left: 5vw;
+    margin-right: 0px;
 }
 
 .cart-item img {
@@ -303,12 +321,6 @@ footer {
     margin-bottom: 10px;
     padding: 5px;
     border: 3px solid rgb(114, 24, 24);;
-}
-.cart-box {
-    /* The div that has this class also has the body-text class */
-    margin-left: 5vw;
-    margin-right: 25vw;
-
 }
 
 
