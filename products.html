@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Product List</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/products.css">
 </head>
+
 <body>
     <!-- Lists all the products in the category that the user selected
     
@@ -20,6 +24,93 @@
         Sorting, Filter, Paging Controls (like 1-20 pages buttons at the bottom) 
     
         -->
-    <h1>Product List :D</h1>
+        <header>
+            <div class="flames-container">
+                <div class="flames"></div>
+                <h1>Truck Freaks Depot</h1>
+            </div>
+
+
+            <!-- NAVIGATION -->
+            <!-- Should we put this before anything else, above flames (Will) -->
+            <div class="navbar-container">
+                <div class="navbar">
+                    <a href="index.html">Home</a>
+                    <a href="#">Login</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Pimp my Truck&trade;</a>
+                    <a href="cart.html">Cart</a>
+                </div>
+            </div>
+
+            <div class="sidebar-container">
+                <div class="sidebar">
+                    <div class="categories-search-bar">
+                        <form action="/search" method="GET">
+                            <input type="text" name="search" placeholder="Search...">
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                    <h2>Categories</h2>
+
+                    <ul>
+                        <li>
+                            <a href="#">Body Mods</a>
+                            <!-- Added this spacing between categories, dont know how i feel about it yet. Looks a little mashed without (Will) -->
+                            <!-- <hr> -->
+                            <ul class="sub-categories">
+                                <li><a href="#">Chains</a></li>
+                                <li><a href="#">Widebody Kit</a></li>
+                                <li><a href="#">Grill Guard</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Performance and Tuning</a>
+                            <!-- <hr> -->
+                            <ul class="sub-categories">
+                                <li><a href="#">Access Ports</a></li>
+                                <li><a href="#">Tuning Maps</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Spikes</a>
+                            <!-- <hr> -->
+                            <ul class="sub-categories">
+                                <li><a href="#">Spiked Rims</a></li>
+                                <li><a href="#">Spiked Spikes</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Accessories</a>
+                            <!-- <hr> -->
+                            <ul class="sub-categories">
+                                <li><a href="#">Subcategory 1</a></li>
+                                <li><a href="#">Subcategory 2</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Exhaust</a>
+                            <!-- <hr> -->
+                            <ul class="sub-categories">
+                                <li><a href="#">Upgraded Flame Exhause</a></li>
+                                <li><a href="#">Louder Exhaust Upgrade</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Cabin</a>
+                            <ul class="sub-categories">
+                                <li><a href="#">Lights</a></li>
+                                <li><a href="#">Nitro Canisters</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    <div class="flex-container">
+        <div class="flex-item">
+            <img src="images/chains0.png" alt="chains0">
+            <img src="images/chains1.jpg" alt="chains1">
+            <img src="images/chains2.webp" alt="chains2">
+        </div>
+    </div>
 </body>
+
 </html>

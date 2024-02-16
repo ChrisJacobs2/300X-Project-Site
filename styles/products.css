@@ -1,0 +1,19 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 270px;
+}
+
+.flex-item {
+    display: flex;
+    align-items: center;
+    margin: 100px;
+    background-color: gray;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin: 100px;
+}
