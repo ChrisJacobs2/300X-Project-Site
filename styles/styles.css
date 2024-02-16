@@ -36,6 +36,15 @@ footer {
     text-align: right;
 }
 
+.categories-search-bar form {
+    display: flex;
+}
+
+.categories-search-bar input[type="text"] {
+    flex: 1;
+    margin-right: 5px;
+}
+
 .flames-container {
     position: relative;
     display: flex;
@@ -152,9 +161,17 @@ footer {
 /* BEGIN SIDEBAR (CATEGORIES) ##################################*/
 /* Wills test */
 .sidebar-container {
-    position: relative;
+    /* position: relative;
     display: flex;
     align-items: center;
+ */
+
+    position: absolute;
+    top: 10;
+    left: 10;
+    width: 250px;
+    height: 100%;
+    z-index: 1;
 }
 
 .sidebar {
