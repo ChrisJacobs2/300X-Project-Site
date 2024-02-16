@@ -302,3 +302,59 @@ footer {
 }
 
 /* END CART SECTION ############################################*/
+
+
+.flex-container img {
+    height: 300px;
+    width: auto;
+}
+
+
+/* PRODUCTS CSS */
+.flex-item-products {
+    display: flex;
+    align-items: center;
+    margin: 130px;
+    background-color: gray;
+    text-align: center;
+}
+
+.flex-container-under-categories {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 270px;
+}
+
+.flex-item-products img {
+    width: 300px;
+    height: auto;
+    margin: 30px;
+}
+
+/* DETAILS CSS */
+.flex-item-details {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    background-color: gray;
+    text-align: center;
+}
+
+.flex-item-details img {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+}
+
+.description {
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: left;
+    flex: 1;
+}
