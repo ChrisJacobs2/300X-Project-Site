@@ -14,7 +14,7 @@
     justify-content: center;
     
 
-    margin-left: 170px;
+    margin-left: 270px;
 }
 
 .flex-item {
@@ -35,7 +35,7 @@
 
 
 img {
-    width: 100px;
+    width: 300px;
     height: auto;
     margin: 10px;
 }
