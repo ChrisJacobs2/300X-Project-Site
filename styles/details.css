@@ -1,19 +1,6 @@
-/* .flex-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: stretch;
-    background-color: gray;
-} */
-
 .flex-container {
-    /* display: inline-block;
-    vertical-align: top;
-    margin-left: 20px; */
     display: flex;
     justify-content: center;
-    
-
     margin-left: 270px;
 }
 
@@ -24,15 +11,6 @@
     background-color: gray;
     text-align: center;
 }
-
-/* .flex-item {
-    display: inline-block;
-    vertical-align: top;
-    margin: 10px;
-    background-color: gray;
-    text-align: center;
-} */
-
 
 img {
     width: 300px;
