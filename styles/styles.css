@@ -24,7 +24,7 @@ footer {
     background-color: rgba(0, 0, 0, 0.59);
     color: white;
     text-align: center;
-    margin-top: 65vh;
+    margin-top: 40vh;
 }
 
 .search-bar {
@@ -268,28 +268,34 @@ footer {
 
 /* BEGIN CART SECTION ##########################################*/
 
-#shopping-cart-main{
+#shopping-cart-main{ 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
-#checkout-box {
-    /* padding: 10px; */
+#checkout-box { 
     padding-left: 10px;
-    align-self: flex-end;
-}
-
-@media (max-width: 600px) {
-    /* if screen is narrower than 600px, move checkout button below
-       cart items */
-    #shopping-cart-main{
-        display: block;
-    }
+    padding-right: 10px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.644);
+    color: white;
+    
 }
 
 #cart-box {
     /* The div that has this class also has the body-text class */
     margin-left: 5vw;
     margin-right: 0px;
+}
+@media (max-width: 600px) {
+    /* if screen is narrower than 600px, move checkout button below
+       cart items */
+    #shopping-cart-main{ 
+        display: block;
+    }
+    #checkout-box {
+        float: right;
+    }
 }
 
 .cart-item img {
