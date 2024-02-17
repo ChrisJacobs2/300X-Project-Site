@@ -261,6 +261,7 @@ footer {
 
 /* END VIDEO CONTAINER #########################################*/
 
+
 /* BEGIN CART SECTION ##########################################*/
 
 #shopping-cart-main{ 
@@ -334,6 +335,7 @@ footer {
     display: flex;
     justify-content: center;
     margin-left: 270px;
+    
 }
 
 .flex-item-products img {
