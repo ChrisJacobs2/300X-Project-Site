@@ -318,6 +318,15 @@ footer {
 
 
 /* PRODUCTS CSS */
+
+#category-name {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+
+}
+
 .flex-item-products {
     display: flex;
     align-items: center;
