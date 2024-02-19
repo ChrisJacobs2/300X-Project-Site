@@ -157,7 +157,7 @@ footer {
 /* Wills test */
 .sidebar-container {
     position: absolute;
-    top: 158px;
+    /* top: 158px; */
     width: 250px;
     height: 100%;
     z-index: 1;
