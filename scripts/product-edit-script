@@ -21,13 +21,13 @@ function displayProducts(products) {
         var li = document.createElement("li");
         li.classList.add("product-item");
         li.innerHTML = `
-        <div>Product ID: ${product.id}</div>
-        <div>Name: ${product.name}</div>
-        <div>Description: ${product.description}</div>
-        <div>Category: ${product.category}</div>
-        <div>Image Path: ${product.imagePath}</div>
-        <div>Price: ${product.price}</div>
-    `;
+            <div>Product ID: ${product.id}</div>
+            <div>Name: ${product.name}</div>
+            <div>Description: ${product.description}</div>
+            <div>Category: ${product.category}</div>
+            <div>Image Path: ${product.imagePath}</div>
+            <div>Price: ${product.price}</div>
+        `;
         li.addEventListener("click", function () {
             alert("Selected Product: " + product.name);
         });
@@ -38,3 +38,28 @@ function displayProducts(products) {
 displayProducts(products);
 
 document.getElementById("searchInput").addEventListener("input", filterProducts);
+
+document.getElementById("addProductForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    var productName = document.getElementById("productName").value;
+    var productDescription = document.getElementById("productDescription").value;
+    var productCategory = document.getElementById("productCategory").value;
+    var productImagePath = document.getElementById("productImagePath").value;
+    var productPrice = parseFloat(document.getElementById("productPrice").value);
+    var newProduct = {
+        id: products.length + 1,
+        name: productName,
+        description: productDescription,
+        category: productCategory,
+        imagePath: productImagePath,
+        price: productPrice
+    };
+    products.push(newProduct);
+    displayProducts(products);
+    document.getElementById("productName").value = "";
+    document.getElementById("productDescription").value = "";
+    document.getElementById("productCategory").value = "";
+    document.getElementById("productImagePath").value = "";
+    document.getElementById("productPrice").value = "";
+    alert("Product added successfully!");
+});
