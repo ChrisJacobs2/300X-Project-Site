@@ -1,15 +1,15 @@
 var products = [
-    { id: 1, name: "PREMIUM HEAVY TIRE CHAINS", description: "Description for Product 1", category: "Category A", imagePath: "images/chains0.png", price: 143.99 },
-    { id: 2, name: "REINFORCED ROUND CHAINS", description: "Description for Product 2", category: "Category A", imagePath: "images/chains1.jpg", price: 279.99 },
-    { id: 3, name: "GOLD CHAINS", description: "Description for Product 3", category: "Category A", imagePath: "images/chains2.webp", price: 35999.99 },
+    { id: 1, name: "PREMIUM HEAVY TIRE CHAINS", description: "Atlas couldn't hold these chains.", category: "Chains", imagePath: "images/chains0.png", price: 143.99 },
+    { id: 2, name: "REINFORCED ROUND CHAINS", description: "7x reinforced. Extra round.", category: "Chains", imagePath: "images/chains1.jpg", price: 279.99 },
+    { id: 3, name: "GOLD CHAINS", description: "24K", category: "Chains", imagePath: "images/chains2.webp", price: 35999.99 },
 
-    { id: 4, name: "SPOKE WHEELS", description: "Description for Product 4", category: "Category B", imagePath: "images/spikes0.avif", price: 399.99 },
-    { id: 5, name: "ARMY HUB KIT", description: "Description for Product 5", category: "Category B", imagePath: "images/spikes1.webp", price: 499.99 },
-    { id: 6, name: "DALEK HUB KIT", description: "Description for Product 6", category: "Category B", imagePath: "images/spikes3.jpg", price: 699.99 },
+    { id: 4, name: "SPOKE WHEELS", description: "Extra spiky", category: "Spikes", imagePath: "images/spikes0.avif", price: 399.99 },
+    { id: 5, name: "ARMY HUB KIT", description: "STAY BACK 200 FT", category: "Spikes", imagePath: "images/spikes1.webp", price: 499.99 },
+    { id: 6, name: "DALEK HUB KIT", description: "Infinitely precise", category: "Spikes", imagePath: "images/spikes3.jpg", price: 699.99 },
 
-    { id: 7, name: "1500cc super charger kit", description: "Description for Product 7", category: "Category C", imagePath: "images/exhaust1.jpg", price: 15000.00 },
-    { id: 8, name: "180G4 Jet Engine Upgrade Kit", description: "Description for Product 8", category: "Category C", imagePath: "images/exhaust2.webp", price: 59719.99 },
-    { id: 9, name: "'Artemis' Rocket Power Kit", description: "Description for Product 9", category: "Category C", imagePath: "images/exhaust3.webp", price: 712979.99 },
+    { id: 7, name: "1500cc super charger kit", description: "Descriptive description", category: "Jets", imagePath: "images/exhaust1.jpg", price: 15000.00 },
+    { id: 8, name: "180G4 Jet Engine Upgrade Kit", description: "Large jet", category: "Jets", imagePath: "images/exhaust2.webp", price: 59719.99 },
+    { id: 9, name: "'Artemis' Rocket Power Kit", description: "Larger jet", category: "Jets", imagePath: "images/exhaust3.webp", price: 712979.99 },
 ];
 
 function filterProducts() {
