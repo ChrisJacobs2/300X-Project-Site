@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <title>Products Edit</title>
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/admin.css">
+    <script src="scripts/product-edit-script" defer></script>
 
     <!-- Bookmark/Favorites Icons -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/icon-16.png">
@@ -34,9 +36,15 @@
         </div>
     </header>
 
-    
-    
-     <footer>
+    <section>
+        <h2>Select a Product to Edit</h2>
+        <input type="text" id="searchInput" placeholder="Search for a product or category">
+        <ul class="product-list" id="productList">
+            <!-- Product items will be dynamically added here -->
+        </ul>
+    </section>
+
+    <footer>
         &copy; 2024 Truck Freaks Incorporated, U.S.A., All rights reserved.
         This site is cool and awesome, and you should buy stuff from it.
         Copying or reproduction of our design, ideas, or Original Characters is strictly prohibited.
