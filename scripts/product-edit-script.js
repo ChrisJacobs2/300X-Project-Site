@@ -17,14 +17,12 @@ function filterProducts() {
     var filteredProducts = products.filter(function (product) {
         return product.name.toLowerCase().includes(searchTerm) || product.category.toLowerCase().includes(searchTerm);
     });
-
     displayProducts(filteredProducts);
 }
 
 function displayProducts(products) {
     var productList = document.getElementById("productList");
     productList.innerHTML = "";
-
     products.forEach(function (product) {
         var li = document.createElement("li");
         li.classList.add("product-item");
