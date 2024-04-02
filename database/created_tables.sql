@@ -54,7 +54,7 @@ CREATE TABLE IF NOT EXISTS Products (
     productImageURL    VARCHAR (255)   NOT NULL,
     productPrice       DECIMAL (10, 2) NOT NULL,
     categoryID         INT,
-    featuredProduct    INT,
+    featuredProduct    BOOLEAN,
     FOREIGN KEY (
         categoryID
     )
